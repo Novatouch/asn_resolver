@@ -5,14 +5,14 @@ This script uses datasoures retrieved from this repo https://github.com/ipverse.
 
 ## How to 
 
-Load data from remote zip archive into local pandas dataframes. 
+Load or update data from remote zip archive into local pandas dataframes. 
 ```
 python lookup.py --refresh-db
 ```
-Search an ip or network: 
+You are now able to search an ip or network: 
 ```
 python lookup.py --search 
 ```
-Then provide a list of ips or subnets to the prompt. 
+Provide a list of ips or subnets to the prompt. 
 
-Two results files are generated in the script directory: res-asn-country.csv and res-asn-country-groupby.csv.
+Two results files will be created in the script directory: res-asn-country.csv and res-asn-country-groupby.csv. First one contains the item list enriched with asn and country information, the second one contains results agregated by asn and countries. 
