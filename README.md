@@ -1,11 +1,11 @@
 # asn_resolver
-Simple script to resolve ip or network asn and country. Compatible with Ipv4 and Ipv6 ip and subnets. 
+Simple script to get asn and country info for ip address or network ranges. Compatible with Ipv4 and Ipv6 ip and subnets. 
 
-This script uses datasoures retrieve from this repo https://github.com/ipverse.
+This script uses datasoures retrieved from this repo https://github.com/ipverse.
 
 ## how to 
 
-Load database into local pandas dataframes. 
+Load data from remote zip archive into local pandas dataframes. 
 ```
 python lookup.py --refresh-db
 ```
