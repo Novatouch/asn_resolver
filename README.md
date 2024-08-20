@@ -13,6 +13,6 @@ Search an ip or network:
 ```
 python lookup.py --search 
 ```
-Then provide a list of ip or network to the prompt. 
+Then provide a list of ips or subnets to the prompt. 
 
 Two results files are generated in the script directory: res-asn-country.csv and res-asn-country-groupby.csv.
