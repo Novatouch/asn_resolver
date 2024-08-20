@@ -3,7 +3,7 @@ Simple script to get asn and country info for ip address or network ranges. Comp
 
 This script uses datasoures retrieved from this repo https://github.com/ipverse.
 
-## how to 
+## How to 
 
 Load data from remote zip archive into local pandas dataframes. 
 ```
